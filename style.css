@@ -1,0 +1,68 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation {
+  height: 10vh;
+  margin: 0;
+  align-items: center;
+}
+
+.navigation li {
+  list-style-type: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #C7AF81;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 24px;
+}
+
+.navigation a:hover{
+  color: black;
+}
+
+body {
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  /*font-family: 'Playfair Display', serif;*/
+  padding:  0;
+  margin:  0;
+}
+
+.img-banner {
+  background-image: linear-gradient(225deg,
+   rgba(0,151,168,0.2) 10%,
+   rgba(10,40,40,0.15) 20%),url(images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+/*.banner-video {
+  height: 100%;
+  /*width: 100%;
+}*/
+/*.banner-video video {
+  width: 100%;
+}*/
+
+.btn-cta {
+  margin-top: 400px;
+}
+
+.img-banner {
+  display:  flex;
+  justify-content: center;
+  align-items:  center;
+
+}
+
+.btn-cta a {
+  padding:  10px 25px;
+  color: white;
+  font-size:  28px;
+  border: solid 3px #C7AF81;
+  text-decoration:  none;
+}
