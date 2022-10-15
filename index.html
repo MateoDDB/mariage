@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mariage M&M's</title>
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Josefin+Sans:wght@100&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <ul class="navigation">
+    <li><a href="programme.html">Le programme</a></li>
+    <li><a href="eglise.html">L'église</a></li>
+    <li style="text-align:center;"><a href="index.html" style="line-height:1.1em"><span style="font-size:36px">M&M'S</span><br><span style="font-size:18px">06.05.2023</span></a></li>
+    <li><a href="#">Le domaine</a></li>
+    <li><a href="seloger.html">Se loger</a></li>
+    <!-- <li><a href="#">La liste de mariage</a></li> -->
+  </ul>
+  <div class="banner">
+    <div class="img-banner">
+    </div>
+    <div class="img-banner">
+      <div class="btn-cta">
+        <a href="#">Le programme</a>
+      </div>
+    </div>
+    <div class="img-banner">
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="bloc-title">
+      <h1>Marine & Mateo vous convient</h1>
+      <label id="Compte"></label>
+       <script type="text/javascript">
+       var Affiche=document.getElementById("Compte");
+       function Rebour() {
+       var date1 = new Date();
+       var date2 = new Date ("May 6, 2023 15:00:00");
+       var sec = (date2 - date1) / 1000;
+       var n = 24 * 3600;
+       if (sec > 0) {
+       j = Math.floor (sec / n);
+       h = Math.floor ((sec - (j * n)) / 3600);
+       mn = Math.floor ((sec - ((j * n + h * 3600))) / 60);
+       sec = Math.floor (sec - ((j * n + h * 3600 + mn * 60)));
+       Affiche.innerHTML = "dans " + j +" jours "+ h +" heures "+ mn +" minutes "+ sec + " secondes";
+       window.status = "Temps restant : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
+       }
+       tRebour=setTimeout ("Rebour();", 1000);
+       }
+       Rebour();
+       </script>
+      <h1>pour fêter leur amour.</h1>
+    </div>
+    <div class="bloc-confirm" style="text-align:center;">
+      <div class="btn-discover">
+        <a href="#ancre">Je confirme ma venue</a>
+      </div>
+    </div>
+    <div class="bloc-text-img">
+      <div data-aos="flip-left" class="bloc-img">
+        <img src="https://images.pexels.com/photos/712651/pexels-photo-712651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+      </div>
+      <div class="bloc-text">
+        <h2>Le programme</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <div class="btn-discover">
+          <a href="programme.html">DECOUVRIR</a>
+        </div>
+      </div>
+    </div>
+    <div class="bloc-text-img">
+      <div class="bloc-text">
+        <h2>Se loger</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <div class="btn-discover">
+          <a href="#">DECOUVRIR</a>
+        </div>
+      </div>
+      <div data-aos="flip-left" class="bloc-img">
+        <img src="https://images.pexels.com/photos/9331147/pexels-photo-9331147.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+      </div>
+    </div>
+    <div class="bloc-text-img">
+      <div data-aos="flip-left" class="bloc-img">
+        <img src="images/chateau.jpg" alt="">
+      </div>
+      <div class="bloc-text">
+        <h2>Le domaine</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <div class="btn-discover">
+          <a href="#">DECOUVRIR</a>
+        </div>
+      </div>
+    </div>
+    <div class="bloc-text-img">
+      <div class="bloc-text">
+        <h2>Le diner</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <div class="btn-discover">
+          <a href="#">DECOUVRIR</a>
+        </div>
+      </div>
+      <div data-aos="flip-left" class="bloc-img">
+        <img src="https://images.pexels.com/photos/1128784/pexels-photo-1128784.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="footer" id="ancre">
+    <div data-aos="zoom-in" class="info-footer">
+      <h3>Pour nous contacter</h3>
+      <i class="fa-regular fa-paper-plane"></i>
+      <p>Marine : marinegilles00@gmail.com - 06 64 74 28 28</p>
+      <p>Mateo : mateo-ceron@hotmail.fr - 06 24 57 47 04</p>
+    </div>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/23fe342023.js" crossorigin="anonymous"></script>
+  <script>
+    AOS.init();
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+  </script>
+</body>
+</html>

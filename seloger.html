@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mariage M&M's</title>
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Josefin+Sans:wght@100&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <ul class="navigation">
+    <li><a href="programme.html">Le programme</a></li>
+    <li><a href="eglise.html">L'église</a></li>
+    <li style="text-align:center;"><a href="index.html" style="line-height:1.1em"><span style="font-size:36px">M&M'S</span><br><span style="font-size:18px">06.05.2023</span></a></li>
+    <li><a href="#">Le domaine</a></li>
+    <li><a href="seloger.html">Se loger</a></li>
+    <!-- <li><a href="#">La liste de mariage</a></li> -->
+  </ul>
+  <div class="banner-loger">
+  </div>
+  <div class="bloc-eglise">
+    <div class="bloc-loger-text">
+      <div class="bloc-prez-loger">
+        <h1>Se loger à proximité du château</h1>
+        <p style="margin-top: 50px;">Réservez de préférence en ligne. Si vous réservez par téléphone, ne précisez pas que vous réservez à l'occasion d'un mariage au château de Saint-Trys pour éviter les commissions du chateau. Si vous souhaitez  dormir sur place, voici la liste des gites à proximité conseillée par le château :</p>
+      </div>
+      <div class="bloc-p">
+        <div class="bloc-parkings">
+          <div class="bloc-parking">
+            <h3>Le Saint ROMAIN - 2KM</h3>
+            <p>Route de Grâves, ANSE</p>
+            <p>04 74 60 24 46</p>
+          </div>
+          <div class="bloc-parking">
+            <h3>Casa VIGNA - 4KM</h3>
+            <p>1697 chemin des Molaizes</p>
+            <p>06 50 19 24 27</p>
+          </div>
+        </div>
+        <div class="bloc-parkings">
+          <div class="bloc-parking">
+            <h3>ETAP - 4KM</h3>
+            <p>163 route de Riottier, LIMAS</p>
+            <p>08 92 68 31 82</p>
+          </div>
+          <div class="bloc-parking">
+            <h3>Hôtel des Pierres Dorées - 4KM</h3>
+            <p>Le Bourg, Ambérieux</p>
+            <p>04 74 62 01 04</p>
+          </div>
+        </div>
+        <div class="bloc-parkings">
+          <div class="bloc-parking">
+            <h3>Le Mercure - 5KM</h3>
+            <p>146 rue de la sous-préfécture, VILLEFRANCHE</p>
+            <p>04 74 62 01 04</p>
+          </div>
+          <div class="bloc-parking">
+            <h3>Jardin des Pierres Dorées - 6KM</h3>
+            <p>124 route de Villefranche, Marcy</p>
+            <p>06 62 20 04 19</p>
+          </div>
+        </div>
+        <!-- <div class="bloc-loger-info">
+          <p>Réservez de préférence en ligne. Si vous réservez par téléphone, ne précisez pas que vous réservez à l'occasion d'un mariage au Chateau de Saint-Trys pour éviter les commissions du chateau.</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="footer" id="ancre">
+    <div data-aos="zoom-in" class="info-footer">
+      <h3>Pour nous contacter</h3>
+      <i class="fa-regular fa-paper-plane"></i>
+      <p>Marine : marinegilles00@gmail.com - 06 64 74 28 28</p>
+      <p>Mateo : mateo-ceron@hotmail.fr - 06 24 57 47 04</p>
+    </div>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/23fe342023.js" crossorigin="anonymous"></script>
+  <script>
+    AOS.init();
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+  </script>
+</body>
+</html>

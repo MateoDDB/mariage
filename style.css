@@ -1,0 +1,316 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.navigation li {
+  list-style-type: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #C7AF81;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 24px;
+}
+
+.navigation a:hover{
+  color: black;
+}
+
+body {
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  /*font-family: 'Playfair Display', serif;*/
+  padding:  0;
+  margin:  0;
+}
+
+body p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body h2 {
+  color: #C7AF81;
+  font-size:  35px;
+}
+
+a {
+  transition: all 0.2s ease;
+}
+
+.banner {
+  display: flex;
+}
+
+.img-banner {
+  /*background-image: linear-gradient(225deg,
+   rgba(0,151,168,0.2) 10%,
+   rgba(10,40,40,0.15) 20%),url(images/video3.gif);*/
+  background-image: url(images/banner.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  flex: 1;
+}
+
+/*.banner-video {
+  height: 100%;
+  /*width: 100%;
+}*/
+/*.banner-video video {
+  width: 100%;
+}*/
+
+.bloc-title label {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-cta {
+  margin-top: 400px;
+}
+
+.img-banner {
+  display:  flex;
+  justify-content: center;
+  align-items:  center;
+
+}
+
+.btn-cta a {
+  padding:  10px 25px;
+  color: white;
+  font-size:  28px;
+  border: solid 3px #C7AF81;
+  text-decoration:  none;
+}
+
+.btn-cta a:hover {
+  background: #C7AF81;
+}
+
+.bloc-text-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  margin-top:  100px;
+}
+
+.wrapper {
+  width:  70%;
+  margin: auto;
+}
+
+.bloc-img, .bloc-text {
+  flex: 1;
+}
+
+.bloc-img {
+  text-align: center;
+}
+
+.bloc-img img {
+  width: 80%;
+}
+
+.bloc-text {
+  text-align: center;
+  padding:  0 10%;
+}
+
+.bloc-text p {
+  /*font-size:  12px;*/
+  line-height: 2em;
+  color:  black;
+  font-weight:  bold;
+}
+
+.bloc-img video{
+  width: 80%;
+}
+
+.bloc-title {
+  text-align: center;
+  /*color: #C7AF81;*/
+  margin-top:  60px;
+}
+
+.bloc-title h1 {
+  font-weight: normal !important;
+  line-height: 2em;
+  font-size:  20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.bloc-title p {
+  font-size:  40px;
+}
+
+.btn-discover a {
+  padding:  10px 25px;
+  color: #C7AF81;
+  font-size:  16px;
+  border: solid 2px #C7AF81;
+  text-decoration:  none;
+}
+
+.btn-discover {
+  margin-top:  50px;
+}
+
+.btn-discover a:hover {
+  background: #C7AF81;
+  color:  white;
+}
+
+/*-----------FOOTER-----------*/
+
+.footer {
+  background:  #C7AF81;
+  padding: 50px 0;
+  margin-top: 100px;
+}
+
+.info-footer {
+  text-align:  center;
+  color:  white;
+  font-size:  24px;
+  font-weight: bold;
+}
+
+.info-footer i {
+  font-size: 38px;
+}
+
+/*------------------PROGRAMME------------------*/
+
+
+.pr-title {
+  text-align: center;
+  /*background:  #ECECEC;*/
+  width: 50%;
+  margin:  50px auto 0 auto;
+  padding:  1px 0 80px 0;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.18);
+}
+
+.pr-title h1 {
+  margin: 80px 0;
+}
+
+.pr-title h2 {
+  margin: 50px 0;
+}
+
+.pr-title h1, h2{
+  color: #C7AF81;
+}
+
+.pr-title h2 {
+  font-size: 24px;
+}
+
+.pr-title p {
+  margin: 10px 0;
+}
+
+.btn-prog {
+  margin-top: 40px;
+}
+
+.bloc-prog {
+  margin-top: 80px;
+}
+
+/*-----------Eglise------------*/
+
+.bloc-eglise {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.bloc-eglise-img {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.bloc-eglise-text {
+  color: #C7AF81;
+}
+
+.bloc-parkings {
+  display:  flex;
+  justify-content: space-around;
+}
+
+.bloc-parking {
+  margin-top: 70px;
+  color:  black;
+  flex:  1;
+}
+
+.bloc-p {
+  width:  70%;
+  margin: auto;
+}
+
+.bloc-eglise h2 {
+  font-size:  24px !important;
+  color: grey;
+  margin-top: 70px;
+}
+
+.bloc-eglise h3 {
+  font-size:  24px;
+  color: #C7AF81;
+}
+
+.bloc-logo-store {
+  display:  flex;
+  align-items:  center;
+  width: 30%;
+  margin: 80px auto 0 auto;
+}
+
+.bloc-logo-store-u img {
+  /*width: 100%;*/
+  height: 50px;
+}
+
+.bloc-logo-store-u {
+  flex: 1;
+}
+
+/*------------Loger-------------*/
+
+.banner-loger {
+  background-image: url(https://images.pexels.com/photos/210017/pexels-photo-210017.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  flex: 1;
+}
+
+.bloc-loger-text h1 {
+  color: #C7AF81;
+}
+
+.bloc-loger-text p {
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.bloc-prez-loger {
+  margin:  0 auto -30px auto;
+  width:  50%;
+}
+
+.bloc-loger-info {
+
+}
