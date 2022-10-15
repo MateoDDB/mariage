@@ -1,0 +1,15 @@
+@media (max-width: 1150px) {
+  .navigation {
+    display: block;
+    height:  25vh;
+    text-align: center;
+  }
+
+  .img-banner {
+    height: 70vh;
+  }
+
+  .responsive-banner {
+    display: none;
+  }
+}
