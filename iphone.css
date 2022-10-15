@@ -37,4 +37,38 @@
   .bloc-img {
     display: none;
   }
+
+  /*-------PROGRAMME------*/
+  .pr-title {
+    width: 90%;
+  }
+
+  /*-------EGLISE------*/
+
+  .bloc-p {
+    width: 90%;
+  }
+
+  .bloc-parkings {
+    display: block;
+  }
+
+  .btn-discover a {
+    font-size: 16px;
+  }
+
+  .bloc-logo-store {
+    width: 100%;
+  }
+
+  .bloc-livret {
+    width: 90%;
+    margin: 80px auto 0 auto;
+  }
+
+  /*------LOGER------*/
+
+  .bloc-prez-loger {
+    width: 90%;
+  }
 }
