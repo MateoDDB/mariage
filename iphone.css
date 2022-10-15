@@ -5,11 +5,36 @@
     text-align: center;
   }
 
+  .navigation li {
+    height: 5vh;
+    align-items: center;
+  }
+
+  .navigation a {
+    font-size: 18px !important;
+  }
+
+  .navigation span {
+    font-size: 18px !important;
+  }
+
   .img-banner {
     height: 70vh;
   }
 
   .responsive-banner {
+    display: none;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .bloc-text-img {
+    display: block;
+  }
+
+  .bloc-img {
     display: none;
   }
 }
