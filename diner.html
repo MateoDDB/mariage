@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mariage M&M's</title>
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Josefin+Sans:wght@100&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" media="screen and (max-width: 1280px)" href="iphone.css" /> <!-- Pour ceux qui ont une résolution inférieure à 1280px -->
+</head>
+<body>
+  <ul class="navigation">
+    <li><a href="programme.html">Le programme</a></li>
+    <li><a href="eglise.html">L'église</a></li>
+    <li style="text-align:center;"><a href="index.html" style="line-height:1.1em"><span style="font-size:36px;">M&M'S</span><br><span style="font-size:18px;">06.05.2023</span></a></li>
+    <li><a href="https://www.chateaudesainttrys.com/">Le domaine</a></li>
+    <li><a href="seloger.html">Se loger</a></li>
+    <!-- <li><a href="#">La liste de mariage</a></li> -->
+  </ul>
+  <div class="bloc-diner">
+    <h1 class="write">COMING SOON</h1>
+    <p>Vous pouvez déjà nous indiquer si vous avez des allergies, des intolérances ou que vous ne mangez pas de viande :)</p>
+  </div>
+  <div class="footer" id="ancre">
+    <div data-aos="zoom-in" class="info-footer">
+      <h3>Pour nous contacter</h3>
+      <i class="fa-regular fa-paper-plane"></i>
+      <p>Marine : marinegilles00@gmail.com - 06 64 74 28 28</p>
+      <p>Mateo : mateo-ceron@hotmail.fr - 06 24 57 47 04</p>
+    </div>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/23fe342023.js" crossorigin="anonymous"></script>
+  <script>
+    AOS.init();
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    let titles = document.querySelectorAll(".write");
+    titles.forEach(function(title){
+      let i = 0;
+      let titleHtml = title.innerHTML;
+      title.innerHTML = ""
+      function typeWriter(){
+        if(i <= titleHtml.length){
+          if(title.innerHTML.length > 0 && i == 0) {
+            title.innerHTML += titleHtml.charAt(i+1)
+          } else {
+            title.innerHTML += titleHtml.charAt(i)
+          }
+          i++
+          setTimeout(typeWriter, 220)
+        } else {
+          i = 0;
+          title.style.height = `${title.offsetHeight}px`;
+          title.innerHTML = ""
+          setTimeout(typeWriter, 220)
+        }
+      }
+      typeWriter()
+    });
+  </script>
+</body>
+</html>
