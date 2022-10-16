@@ -108,6 +108,11 @@ a {
   margin-top:  100px;
 }
 
+.bloc-confirm p {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
 .wrapper {
   width:  70%;
   margin: auto;
