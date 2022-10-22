@@ -38,6 +38,12 @@
     display: none;
   }
 
+  /*FOOTER*/
+
+  .footer p {
+    font-size: 18px;
+  }
+
   /*-------PROGRAMME------*/
   .pr-title {
     width: 90%;
@@ -66,6 +72,9 @@
     margin: 80px auto 0 auto;
   }
 
+  .bloc-eglise-img img {
+    width: 100%;
+  }
   /*------LOGER------*/
 
   .bloc-prez-loger {
